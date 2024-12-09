@@ -147,7 +147,7 @@ const Footer = () => {
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               {/* Facebook Icon */}
               <a
-                href="https://www.facebook.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300"
@@ -165,7 +165,7 @@ const Footer = () => {
               </a>
               {/* Twitter Icon */}
               <a
-                href="https://www.twitter.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-3 text-gray-300"
@@ -183,7 +183,7 @@ const Footer = () => {
               </a>
               {/* Instagram Icon */}
               <a
-                href="https://www.instagram.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-3 text-gray-300"
@@ -203,7 +203,7 @@ const Footer = () => {
               </a>
               {/* LinkedIn Icon */}
               <a
-                href="https://www.linkedin.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-3 text-gray-300"

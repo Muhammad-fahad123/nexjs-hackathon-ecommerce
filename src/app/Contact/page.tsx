@@ -12,36 +12,44 @@ const Contact = () => {
             <div className="flex gap-3 items-center">
               <Image
                 src="/images/icons-phone.png"
-                alt="contact"
+                alt="Phone Icon"
                 width={40}
                 height={40}
               />
               <h1 className="text-2xl font-semibold">Call To Us</h1>
             </div>
-            <div>
-            <p className="text-sm text-gray-600">We are available 24/7, 7 days a week</p>
-            <p className="text-sm text-gray-800 font-medium">Phone: +8801611112222</p>
+            <div className="mt-2">
+              <p className="text-sm text-gray-600">
+                We are available 24/7, 7 days a week.
+              </p>
+              <p className="text-sm text-gray-800 font-medium">
+                Phone: +8801611112222
+              </p>
+            </div>
           </div>
-          </div>
-
-
 
           {/* Write To Us */}
           <div>
             <div className="flex gap-3 items-center">
               <Image
                 src="/images/icons-mail.png"
-                alt="contact"
+                alt="Mail Icon"
                 width={40}
                 height={40}
               />
               <h1 className="text-2xl font-semibold">Write To Us</h1>
             </div>
-            <div>
-            <p className="text-sm text-gray-600">Fill out our form and we will contact you within 24 hours.</p>
-            <p className="text-sm text-gray-800 font-medium">Emails: customer@exclusive.com</p>
-            <p className="text-sm text-gray-800 font-medium">Emails: support@exclusive.com</p>
-          </div>
+            <div className="mt-2">
+              <p className="text-sm text-gray-600">
+                Fill out our form and we will contact you within 24 hours.
+              </p>
+              <p className="text-sm text-gray-800 font-medium">
+                Email: customer@exclusive.com
+              </p>
+              <p className="text-sm text-gray-800 font-medium">
+                Email: support@exclusive.com
+              </p>
+            </div>
           </div>
         </div>
 
@@ -76,9 +84,9 @@ const Contact = () => {
 
           {/* Submit Button */}
           <div className="flex justify-end">
-          <button className="text-black bg-gray-200 w-full md:w-[200px] border-0 py-3 px-6 focus:outline-none hover:bg-gray-600 hover:text-white my-2 md:mt-20">
-                Send Massgae
-              </button>
+            <button className="text-black bg-gray-200 w-full md:w-[200px] border-0 py-3 px-6 focus:outline-none hover:bg-gray-600 hover:text-white mt-4">
+              Send Message
+            </button>
           </div>
         </div>
       </div>
